@@ -3,15 +3,20 @@ html{
     font-family: OpenSans,sans-serif;
 }
 
-main{/*
+body{
+    background-color: #b2bfc7;
+}
+
+main{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-*/
+    /*
+    justify-content: center;
+    flex-wrap: wrap;*/
     display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    gap: 1em;
 }
 
 :root{
