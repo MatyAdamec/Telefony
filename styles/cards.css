@@ -185,10 +185,10 @@ p.card__text{
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-.card__price{
+.card__price-text{
     margin-top: 2em;
 }
-.card__price__number{
+.card__price{
     display: block;
     font-size: 1.7em;
     color: #000;

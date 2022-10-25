@@ -3,12 +3,12 @@ html{
     font-family: OpenSans,sans-serif;
 }
 
-main{
+main{/*
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-
+*/
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
