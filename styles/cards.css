@@ -7,7 +7,6 @@
     border: lightgray 1px solid;
     border-radius: 10px;
     overflow: hidden;
-    cursor:pointer;
     transition: box-shadow 0.2s ease-in-out;
     color: var(--text);
     font-size: .9em;
@@ -27,26 +26,27 @@
 }
 
 
-
-.card__header{
-    display: flex;
-    justify-content: center;
+.card__header {
     padding: 1em 0 1em 0;
-    max-height: 200px;
-    overflow: hidden;
-
+    height: 200px;
 }
 
-.card__img-link{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.card__img{
+.card__img-link {
     height: 100%;
+    display: block;
+}
+
+.card__img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: contain;
     transition: transform 0.2s ease-in-out;
 }
+
+
+
+
 .card:hover .card__img{
     transform: scale(1.05);
 }
@@ -141,7 +141,7 @@ font-size: 2px;
 .card__title{
     text-decoration: none;
     display: block;
-    height: 50px;
+    min-height: 2.3em;
     font-size: 1.5em;
     font-weight: lighter;
     color: var(--title);
